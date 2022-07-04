@@ -38,5 +38,5 @@ NOT FOR COMMERCIAL USE If you intened to use any of my code for commercial use p
 
 ## Authors
 
-- [@aspherr](https://www.github.com/octokatherine)
+- [@aspherr](https://github.com/aspherr)
 
