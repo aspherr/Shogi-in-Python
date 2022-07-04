@@ -28,6 +28,8 @@ If the above command failed try:
 - Timer countdown isnt constant and so speed of decrementation slighty can vary
 - When the King piece is in check, it can still capture pieces in a square that keeps the King in check
 
+If the fonts provided dont work, you can customise with your own fonts with the global font variables in the constants.py file
+
 
 ## License
 
