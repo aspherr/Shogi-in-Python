@@ -3,30 +3,6 @@ Author: Huzaifa Syed
 This is the 'main' module that is responsible for controlling the main game loop
 """
 
-import subprocess
-import sys
-
-def install(package):
-    subprocess.call([sys.executable, "-m", "pip", "install", package])
-
-try:
-    print("[GAME] Trying to import pygame")
-    import pygame
-    
-except Exception:
-    print("[EXCEPTION] Pygame not installed")
-
-    try:
-        print("[GAME] Trying to install pygame via pip")
-        import pip
-        install("pygame")
-        print("[GAME] Pygame has been installed")
-        
-    except Exception:
-        print("[EXCEPTION] Pip not installed on system")
-        print("[GAME] Trying to install pip")
-
-
 import os
 import sys
 import pygame as game
