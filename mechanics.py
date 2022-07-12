@@ -5,7 +5,6 @@ import itertools
 from board import Board
 from constants import *
 from pieces import *
-from pieces import Pawn
 
 from interface import PromotionWindow
 promotion_menu = PromotionWindow()
